@@ -1,6 +1,7 @@
 from django.db import models
+from datetime import time
 
-from Users.models import User
+from users.models import User
 
 
 class Habit(models.Model):
@@ -10,7 +11,8 @@ class Habit(models.Model):
     habit_to_do = models.CharField(max_length=1024, verbose_name='действие, которое представляет собой привычка')
     frequency =  models.IntegerField(default=1, verbose_name='периодичность, в днях')
     award = models.CharField(max_length=1024, verbose_name='награда за успешное выполнение')
-    time_to_do = models.TimeField(default=10)
+    time_to_do = models.TimeField(default=time(0, 10, 0), verbose_name='время требуемое на выполнение задачи')
+    is_public = models.BooleanField(default=False, verbose_name='публичный/непубличный')
 
     class Meta:
         verbose_name = 'привычка'
