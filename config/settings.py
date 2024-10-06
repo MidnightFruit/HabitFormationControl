@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'corsheaders',
     'rest_framework',
     'rest_framework_simplejwt',
     'drf_yasg',
@@ -71,8 +72,18 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-
+    'corsheaders.middleware.CorsMiddleware'
 ]
+
+CORS_ALLOWED_ORIGINS = [
+    os.getenv('ALLOWED_ORIGINS'),
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    os.getenv('TRUSTED_ORIGINS'),
+]
+
+CORS_ALLOW_ALL_ORIGINS = False
 
 ROOT_URLCONF = 'config.urls'
 
@@ -164,6 +175,8 @@ CELERY_TIMEZONE = 'Europe/Moscow'
 CELERY_TASK_TRACK_STARTED = True
 
 CELERY_TASK_TIME_LIMIT = 30 * 60
+
+TELEGRAM_URL = f'https://api.telegram.org/{os.getenv("TELEGRAM_BOT_API")}'
 
 # CELERY_BEAT_SCHEDULE = {
 #     'block_inactive_user': {
