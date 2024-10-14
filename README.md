@@ -3,7 +3,7 @@
 
 Проект запускается с помощью докера командой:
 
-'docker-compose up -d --build'
+```docker-compose up -d --build```
 
 В файле [docker-compose.yaml](https://github.com/MidnightFruit/HabitFormationControl/blob/c8f36977f5e041d998d6f93c25f0f1e1291a3fa4/docker-compose.yaml) прописаны настройки для контейнеров.
 
