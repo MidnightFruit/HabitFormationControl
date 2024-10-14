@@ -1,0 +1,115 @@
+2024-10-12 22:46:35 Traceback (most recent call last):
+2024-10-12 22:46:35   File "/app/manage.py", line 22, in <module>
+2024-10-12 22:46:35     main()
+2024-10-12 22:46:35   File "/app/manage.py", line 18, in main
+2024-10-12 22:46:35     execute_from_command_line(sys.argv)
+2024-10-12 22:46:35   File "/usr/local/lib/python3.12/site-packages/django/core/management/__init__.py", line 442, in execute_from_command_line
+2024-10-12 22:46:35     utility.execute()
+2024-10-12 22:46:35   File "/usr/local/lib/python3.12/site-packages/django/core/management/__init__.py", line 416, in execute
+2024-10-12 22:46:35     django.setup()
+2024-10-12 22:46:35   File "/usr/local/lib/python3.12/site-packages/django/__init__.py", line 24, in setup
+2024-10-12 22:46:35     apps.populate(settings.INSTALLED_APPS)
+2024-10-12 22:46:35   File "/usr/local/lib/python3.12/site-packages/django/apps/registry.py", line 91, in populate
+2024-10-12 22:46:35     app_config = AppConfig.create(entry)
+2024-10-12 22:46:35                  ^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-12 22:46:35   File "/usr/local/lib/python3.12/site-packages/django/apps/config.py", line 193, in create
+2024-10-12 22:46:35     import_module(entry)
+2024-10-12 22:46:35   File "/usr/local/lib/python3.12/importlib/__init__.py", line 90, in import_module
+2024-10-12 22:46:35     return _bootstrap._gcd_import(name[level:], package, level)
+2024-10-12 22:46:35            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-12 22:46:35   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+2024-10-12 22:46:35   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+2024-10-12 22:46:35   File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+2024-10-12 22:46:35 ModuleNotFoundError: No module named 'corsheaders'
+2024-10-12 22:48:16 Traceback (most recent call last):
+2024-10-12 22:48:16   File "/app/manage.py", line 22, in <module>
+2024-10-12 22:48:16     main()
+2024-10-12 22:48:16   File "/app/manage.py", line 18, in main
+2024-10-12 22:48:16     execute_from_command_line(sys.argv)
+2024-10-12 22:48:16   File "/usr/local/lib/python3.12/site-packages/django/core/management/__init__.py", line 442, in execute_from_command_line
+2024-10-12 22:48:16     utility.execute()
+2024-10-12 22:48:16   File "/usr/local/lib/python3.12/site-packages/django/core/management/__init__.py", line 416, in execute
+2024-10-12 22:48:16     django.setup()
+2024-10-12 22:48:16   File "/usr/local/lib/python3.12/site-packages/django/__init__.py", line 24, in setup
+2024-10-12 22:48:16     apps.populate(settings.INSTALLED_APPS)
+2024-10-12 22:48:16   File "/usr/local/lib/python3.12/site-packages/django/apps/registry.py", line 91, in populate
+2024-10-12 22:48:16     app_config = AppConfig.create(entry)
+2024-10-12 22:48:16                  ^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-12 22:48:16   File "/usr/local/lib/python3.12/site-packages/django/apps/config.py", line 193, in create
+2024-10-12 22:48:16     import_module(entry)
+2024-10-12 22:48:16   File "/usr/local/lib/python3.12/importlib/__init__.py", line 90, in import_module
+2024-10-12 22:48:16     return _bootstrap._gcd_import(name[level:], package, level)
+2024-10-12 22:48:16            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-12 22:48:16   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+2024-10-12 22:48:16   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+2024-10-12 22:48:16   File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+2024-10-12 22:48:16 ModuleNotFoundError: No module named 'corsheaders'
+2024-10-12 22:59:43 Traceback (most recent call last):
+2024-10-12 22:59:43   File "/app/manage.py", line 22, in <module>
+2024-10-12 22:59:43     main()
+2024-10-12 22:59:43   File "/app/manage.py", line 18, in main
+2024-10-12 22:59:43     execute_from_command_line(sys.argv)
+2024-10-12 22:59:43   File "/usr/local/lib/python3.12/site-packages/django/core/management/__init__.py", line 442, in execute_from_command_line
+2024-10-12 22:59:43     utility.execute()
+2024-10-12 22:59:43   File "/usr/local/lib/python3.12/site-packages/django/core/management/__init__.py", line 416, in execute
+2024-10-12 22:59:43     django.setup()
+2024-10-12 22:59:43   File "/usr/local/lib/python3.12/site-packages/django/__init__.py", line 24, in setup
+2024-10-12 22:59:43     apps.populate(settings.INSTALLED_APPS)
+2024-10-12 22:59:43   File "/usr/local/lib/python3.12/site-packages/django/apps/registry.py", line 91, in populate
+2024-10-12 22:59:43     app_config = AppConfig.create(entry)
+2024-10-12 22:59:43                  ^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-12 22:59:43   File "/usr/local/lib/python3.12/site-packages/django/apps/config.py", line 193, in create
+2024-10-12 22:59:43     import_module(entry)
+2024-10-12 22:59:43   File "/usr/local/lib/python3.12/importlib/__init__.py", line 90, in import_module
+2024-10-12 22:59:43     return _bootstrap._gcd_import(name[level:], package, level)
+2024-10-12 22:59:43            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-12 22:59:43   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+2024-10-12 22:59:43   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+2024-10-12 22:59:43   File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+2024-10-12 22:59:43 ModuleNotFoundError: No module named 'corsheaders'
+2024-10-13 00:11:08 Traceback (most recent call last):
+2024-10-13 00:11:08   File "/app/manage.py", line 22, in <module>
+2024-10-13 00:11:08     main()
+2024-10-13 00:11:08   File "/app/manage.py", line 18, in main
+2024-10-13 00:11:08     execute_from_command_line(sys.argv)
+2024-10-13 00:11:08   File "/usr/local/lib/python3.12/site-packages/django/core/management/__init__.py", line 442, in execute_from_command_line
+2024-10-13 00:11:08     utility.execute()
+2024-10-13 00:11:08   File "/usr/local/lib/python3.12/site-packages/django/core/management/__init__.py", line 416, in execute
+2024-10-13 00:11:08     django.setup()
+2024-10-13 00:11:08   File "/usr/local/lib/python3.12/site-packages/django/__init__.py", line 24, in setup
+2024-10-13 00:11:08     apps.populate(settings.INSTALLED_APPS)
+2024-10-13 00:11:08   File "/usr/local/lib/python3.12/site-packages/django/apps/registry.py", line 91, in populate
+2024-10-13 00:11:08     app_config = AppConfig.create(entry)
+2024-10-13 00:11:08                  ^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-13 00:11:08   File "/usr/local/lib/python3.12/site-packages/django/apps/config.py", line 193, in create
+2024-10-13 00:11:08     import_module(entry)
+2024-10-13 00:11:08   File "/usr/local/lib/python3.12/importlib/__init__.py", line 90, in import_module
+2024-10-13 00:11:08     return _bootstrap._gcd_import(name[level:], package, level)
+2024-10-13 00:11:08            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-13 00:11:08   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+2024-10-13 00:11:08   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+2024-10-13 00:11:08   File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+2024-10-13 00:11:08 ModuleNotFoundError: No module named 'corsheaders'
+2024-10-13 00:11:14 Traceback (most recent call last):
+2024-10-13 00:11:14   File "/app/manage.py", line 22, in <module>
+2024-10-13 00:11:14     main()
+2024-10-13 00:11:14   File "/app/manage.py", line 18, in main
+2024-10-13 00:11:14     execute_from_command_line(sys.argv)
+2024-10-13 00:11:14   File "/usr/local/lib/python3.12/site-packages/django/core/management/__init__.py", line 442, in execute_from_command_line
+2024-10-13 00:11:14     utility.execute()
+2024-10-13 00:11:14   File "/usr/local/lib/python3.12/site-packages/django/core/management/__init__.py", line 416, in execute
+2024-10-13 00:11:14     django.setup()
+2024-10-13 00:11:14   File "/usr/local/lib/python3.12/site-packages/django/__init__.py", line 24, in setup
+2024-10-13 00:11:14     apps.populate(settings.INSTALLED_APPS)
+2024-10-13 00:11:14   File "/usr/local/lib/python3.12/site-packages/django/apps/registry.py", line 91, in populate
+2024-10-13 00:11:14     app_config = AppConfig.create(entry)
+2024-10-13 00:11:14                  ^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-13 00:11:14   File "/usr/local/lib/python3.12/site-packages/django/apps/config.py", line 193, in create
+2024-10-13 00:11:14     import_module(entry)
+2024-10-13 00:11:14   File "/usr/local/lib/python3.12/importlib/__init__.py", line 90, in import_module
+2024-10-13 00:11:14     return _bootstrap._gcd_import(name[level:], package, level)
+2024-10-13 00:11:14            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024-10-13 00:11:14   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+2024-10-13 00:11:14   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+2024-10-13 00:11:14   File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+2024-10-13 00:11:14 ModuleNotFoundError: No module named 'corsheaders'

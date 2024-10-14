@@ -72,7 +72,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'corsheaders.middleware.CorsMiddleware'
+    'corsheaders.middleware.CorsMiddleware',
 ]
 
 CORS_ALLOWED_ORIGINS = [
@@ -166,9 +166,9 @@ AUTH_USER_MODEL = 'users.User'
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 
-CELERY_BROKER_URL = os.getenv('REDIS_URL')
+CELERY_BROKER_URL = os.getenv('CELERY_BROKER_URL')
 
-CELERY_RESULT_BACKEND = os.getenv('REDIS_URL')
+CELERY_RESULT_BACKEND = os.getenv('CELERY_RESULT_BACKEND')
 
 CELERY_TIMEZONE = 'Europe/Moscow'
 
